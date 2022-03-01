@@ -23,13 +23,13 @@ import json
 with open("config.json","r") as f:
     config = json.loads(f.read())
 
-TOKEN = 2125839096:AAEquwngQspHnA9emK8G_CC6Uh-JszqgYpU
-WORKERS = 32
-ADMIN_LIST = 1514078508
-OPEN_LOBBY = True
-ENABLE_TRANSLATIONS = False
-DEFAULT_GAMEMODE = fast
-WAITING_TIME = 120
-TIME_REMOVAL_AFTER_SKIP = 20
-MIN_FAST_TURN_TIME = 15
-MIN_PLAYERS = 5
+TOKEN = getenv("TOKEN")
+WORKERS = getenv("32")
+ADMIN_LIST = getenv("ADMIN_LIST")
+OPEN_LOBBY = getenv("True")
+ENABLE_TRANSLATIONS = getenv("False")
+DEFAULT_GAMEMODE = getenv("Fast")
+WAITING_TIME = getenv("120")
+TIME_REMOVAL_AFTER_SKIP = getenv("20")
+MIN_FAST_TURN_TIME = getenv("15")
+MIN_PLAYERS = getenv("2")
