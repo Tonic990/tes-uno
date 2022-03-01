@@ -7,7 +7,7 @@
   ],
   "repository": "https://github.com/fjgaming212/UnoXrobot",
   "env": {
-    "BOT_TOKEN": {
+    "TOKEN": {
       "description": "Bot token kamu",
       "required": true
     },
