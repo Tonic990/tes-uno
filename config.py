@@ -23,7 +23,7 @@ import json
 with open("config.json","r") as f:
     config = json.loads(f.read())
 
-TOKEN = config.get("BOT_TOKEN")
+TOKEN = config.get("TOKEN")
 WORKERS = config.get("32")
 ADMIN_LIST = config.get("ADMIN_LIST")
 OPEN_LOBBY = config.get("True")
