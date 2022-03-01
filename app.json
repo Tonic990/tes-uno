@@ -7,50 +7,50 @@
   ],
   "repository": "https://github.com/fjgaming212/UnoXrobot",
   "env": {
-    "TOKEN": {
+    "token": {
       "description": "Bot token kamu",
       "required": true
     },
-    "ADMIN_LIST": {
+    "admin_list": {
       "description": "List admin bot mu.",
       "required": true
     },
-    "OPEN_LOBBY": {
+    "open_lobby": {
       "description": "Loby saat memakai bot mu.",
       "value": "true",
       "required": true
     },
-    "ENABLE_TRANSLATIONS": {
+    "enable_translations": {
       "description": "Terjemahan bot mu.",
       "value": "false",
       "required": true
     },
-    "WORKERS": {
+    "workers": {
       "description": "",
       "value": "32",
       "required": true
     },
-    "DEFAULT_GAMEMODE": {
+    "default_gamemode": {
       "description": "Mode game untuk bot mu",
       "value": "fast",
       "required": false
     },
-    "WAITING_TIME": {
+    "waiting_time": {
       "description": "",
       "value": "120",
       "required": false
     },
-    "TIME_REMOVAL_AFTER_SKIP": {
+    "time_removal_after_skip": {
       "description": "",
       "value": "20",
       "required": false
     },
-    "MIN_FAST_TURN_TIME": {
+    "min_fast_turn_time": {
       "description": "",
       "value": "15",
       "required": true
     },
-    "MIN_PLAYER": {
+    "min_player": {
       "description": "Minimal player bot mu",
       "value": "2",
       "required": true
