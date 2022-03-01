@@ -24,6 +24,6 @@ Then run the bot with `python3 bot.py`.
 
 Code documentation is minimal but there.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tonic990/UnoXrobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tonic990/tes-uno)
 
 ## Spesial Thanks For [Contributor](https://github.com/fjgaming212/UnoXrobot/contributors)
