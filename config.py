@@ -20,7 +20,7 @@
 
 import json
 
-with open("config.json","r") as f:
+with open("app.json","r") as f:
     config = json.loads(f.read())
 
 TOKEN = config.get("TOKEN")
